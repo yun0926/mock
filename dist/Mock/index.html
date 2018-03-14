@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mock数据</title>
+    <link href="assets/app/css/base.css" type="text/css" rel="stylesheet">
+</head>
+<script type="text/javascript" src="assets/js/plugins/seajs/sea-debug.js"></script>
+<script type="text/javascript" src="assets/js/plugins/seajs/seajs-text-debug.js"></script>
+<script type="text/javascript" src="assets/js/seajs.config.js"></script>
+
+<script type="text/javascript" src="assets/js/plugins/ace.js"></script>
+<script type="text/javascript" src="assets/js/plugins/mode-json.js"></script>
+<script type="text/javascript" src="assets/js/plugins/worker-json.js"></script>
+
+<script type="text/javascript">
+    window.debug = false;
+    window.root = "/";
+
+
+    window.submitMockUrl = "/lux/data";
+
+
+    window.getMockUrlList = "/web_mock_bak.json";
+
+
+    seajs.config({
+        base: "http://"+window.location.host+window.root
+    });
+    seajs.use('Core/mockMain',function(obj){
+        obj.render($(document.body));
+    });
+</script>
+</head>
+<body></body>
+</html>

@@ -1,0 +1,2 @@
+/*TMODJS:{"version":2,"md5":"43e2b5d8c37bb473b053ded2ee227725"}*/
+template('template/offerLevel.seq.update.dialog','<form class="form-horizontal dialog-form" role="form"> <div class="row"> <div class="col-sm-12"> <div class="alert alert-info fade in seq-alert"> <button class="close" data-dismiss="alert"> × </button> <i class="fa-fw fa fa-info"></i> <strong>提示!</strong>鼠标拖动进行排序! </div> <div class="seq-box left-defaults linenums"> <ol class="seq-box-warp" id="seq-content"></ol> </div> </div> </div> </form>');

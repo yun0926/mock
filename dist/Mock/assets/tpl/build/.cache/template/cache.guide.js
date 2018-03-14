@@ -1,0 +1,2 @@
+/*TMODJS:{"version":2,"md5":"237ce2cd922bc8007352438c8df2bac2"}*/
+template('template/cache.guide','<div class="tw-hd" id="search-bar"> </div> <div class="tw-bd"> <p id="notTimingWeiboList" class="empty-content" style=""> <i class="i-warn"></i> 您还没有设定定时任务，您可以尝试 <a id="createWeibo" href="javascript:;">刷新缓存</a>。 </p> </div> ');

@@ -1,0 +1,2 @@
+/*TMODJS:{"version":2,"md5":"348dedc19476b3b7d99b1c19d0773871"}*/
+template('template/user.left.menu','<div class="slimScrollDiv"> <ul class="nav sidebar-menu"> <li> <a href="#/role/user"> <i class="menu-icon glyphicon glyphicon-home"></i> <span class="menu-text">用户</span> </a> </li> <li> <a href="#/role/role"> <i class="menu-icon glyphicon glyphicon-tasks"></i> <span class="menu-text">权限</span> </a> </li> <li> <a href="#/role/group"> <i class="menu-icon glyphicon glyphicon-tasks"></i> <span class="menu-text">角色</span> </a> </li> </ul> </div> ');

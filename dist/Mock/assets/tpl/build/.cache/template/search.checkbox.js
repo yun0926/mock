@@ -1,0 +1,2 @@
+/*TMODJS:{"version":2,"md5":"008742db3d0af2b353db5d4d2b374f98"}*/
+template('template/search.checkbox','<div class="filter-select"> <% _.each(field,function (item) { %> <label> <input type="checkbox" name="pack" value="<%= item.value %>"> <span class="radio-text"><%= item.name %></span> </label> <% }); %> </div> ');

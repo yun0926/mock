@@ -1,0 +1,7 @@
+[
+  {
+    "projectName":"webtest",
+    "logLevel":"INFO",
+    "listenPort":9090
+  }
+]

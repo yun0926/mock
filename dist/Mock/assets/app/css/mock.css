@@ -1,0 +1,111 @@
+.box{
+    display: flex;
+}
+
+
+
+
+
+
+
+.mock-content{
+    height: 100%;
+}
+
+.box-row{
+    display: flex;
+    flex-direction:row;
+    height: 100%;
+}
+
+
+.box-column{
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+ /*   border: 1px solid red;*/
+}
+
+
+.container-left{
+    flex: 1;
+    padding: 10px 20px;
+}
+
+.container-right{
+    width: 500px;
+    flex: inherit;
+    border-right: 1px solid #bebebe;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+}
+.url-search-tip .tip{
+    color: red;
+    padding-left: 23px;
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.url-search-tip{
+    height: 20px;
+    flex: inherit;
+    text-align: left;
+    font-size: 16px;
+}
+
+.url-search{
+    height: 60px;
+    flex: inherit;
+
+    border-bottom: 1px solid #bebebe;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+}
+
+
+.url-search-content{
+    flex: 1;
+    padding: 10px 5px 10px 20px;
+    overflow: auto;
+}
+
+
+.top-json-view{
+    flex: 1;
+    padding-left: 50px;
+    overflow: auto;
+}
+.top-form{
+    flex: inherit;
+    height: 150px;
+}
+.map-sequence{
+    display: inline-block;
+}
+
+
+.url-list{
+    margin: 2px 3px;
+    padding: 2px 3px;
+    cursor: pointer;
+    display: block;
+    cursor: pointer;
+}
+
+.url-list:hover{
+
+}
+.url-list.select{
+    background-color: #6dbcdb !important;
+}
+
+.url{
+    display: flex;
+    justify-content:flex-start;
+}
+.create-data{
+    display: flex;
+    justify-content:flex-end;
+    padding: 2px 20px;
+}

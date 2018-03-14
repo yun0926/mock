@@ -1,0 +1,2 @@
+/*TMODJS:{"version":2,"md5":"9124cb2ebc5208f30f16b9d7786f66b3"}*/
+template('template/page.left.menu','<div class="slimScrollDiv"> <ul class="nav sidebar-menu"> <li> <a href="#/page/pagehost"> <i class="menu-icon glyphicon glyphicon-home"></i> <span class="menu-text"> 页面管理</span> </a> </li>  <li> <a href="#/page/page"> <i class="menu-icon glyphicon glyphicon-home"></i> <span class="menu-text"> 单页创建</span> </a> </li>  </ul> </div> ');
